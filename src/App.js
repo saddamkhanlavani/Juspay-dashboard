@@ -1,6 +1,6 @@
 import './App.scss';
 import { useState } from "react"
-import { Layout } from './../src/pages/Layout.jsx'
+import { Layout } from './pages/Layout.jsx'
 import { OrderList } from './components/OrderList.jsx'
 import { Home } from './pages/Home.jsx'
 
