@@ -1,0 +1,82 @@
+@import '../variables';
+
+.sidebar {
+    width: 240px;
+    background-color: var(--contacts-bg);
+    color: var(--contacts-text);
+    height: 100vh;
+    padding: 20px 16px;
+    box-sizing: border-box;
+    border-right: 1px solid #e5e5e5;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+
+  .brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--contacts-text);
+  }
+
+  .section-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--contacts-text);
+    margin: 20px 0 10px;
+  }
+
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .sidebar-item,
+  .sidebar-subitem {
+    padding: 6px 12px;
+    font-size: 13px;
+    color: var(--contacts-text);
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-radius: 4px;
+    align-items: center;
+      display: flex;
+      gap: 5px;
+  }
+
+  .sidebar-item:hover,
+  .sidebar-subitem:hover {
+    background-color: var(--contacts-bg);
+  }
+
+  .sidebar-item.active {
+    background-color: #e6f0ff;
+    color: #007bff;
+    font-weight: 600;
+  }
+
+  .sidebar-subitem {
+    padding-left: 24px;
+    font-size: 13px;
+    color: var(--contacts-text);
+    position: relative;
+      margin-left: 42px;
+  }

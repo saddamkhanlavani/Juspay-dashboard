@@ -1,0 +1,71 @@
+@import"./variables.scss";
+
+.home-wrapper {
+    display: flex;
+    margin: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--contacts-bg);
+color: var(--contacts-text);
+}
+
+.home-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.home-section-3 {
+    display : flex;
+    gap: 12px;
+    margin-top: 48px;
+
+    div {
+        margin: 0 12px;
+    }
+}
+
+.home-section-2 {
+display : flex;
+
+&-graph {
+  margin : 0 12px;
+}
+}
+
+.dashboard-container {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    align-items: flex-start;
+    padding : 12px;
+  }
+
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cards-grid {
+    display: flex;
+    gap: 24px;
+  }
+
+  .dashboard-card {
+    flex: 1;
+    min-width: 120px;
+    max-width: 200px;
+    position: relative;
+  }
+
+  .dashboard-card.selected {
+    border: 2px solid #ffe066;
+    box-sizing: border-box;
+    background: #f6fafd;
+  }
+
+  .chart-section {
+    border-radius: 20px;
+    flex: 2;
+    min-width: 350px;
+  }

@@ -1,0 +1,36 @@
+@import '../variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: var(--contacts-bg);
+color: var(--contacts-text);
+  }
+
+  /* Breadcrumb on the left */
+  .breadcrumb {
+    font-size: 16px;
+    color: var(--contacts-text);
+  }
+
+  /* Right section: search + icons */
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* space between search bar and icons */
+  }
+
+  .header-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+  }
+
+  .header-icons img:hover {
+    transform: scale(1.1);
+  }

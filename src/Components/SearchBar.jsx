@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/SearchBar.css";
+import "../scss/components/SearchBar.scss";
 
 const SearchBar = () => {
   const [query, setQuery] = useState("");
@@ -19,7 +19,7 @@ const SearchBar = () => {
         onChange={handleSearch}
       />
       <span className="shortcut"> <img src="/assets/search2.png"  alt="seaarch2" />  </span>
-      
+
     </div>
   );
 };

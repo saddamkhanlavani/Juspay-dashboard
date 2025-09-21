@@ -1,19 +1,25 @@
-import Header from "./components/Header";
-import Layout from "./components/Layout";
-import SideBar from "./components/SideBar";
-import OrderList from "./components/OrderList";
+import './App.scss';
+import { useState } from "react"
+import { Layout } from './pages/Layout.jsx'
+import { OrderList } from './components/OrderList.jsx'
+import { Home } from './pages/Home.jsx'
 
-function App() {
+
+
+const  App = ( ) =>  {
+
+  const [page, setPage] = useState(true)
   return (
     <div className="App">
-      {/* <Header /> */}
-      
-      {/* <SideBar /> */}
-      <Layout>
-        <OrderList />
+
+<Layout>
+        {page ?         
+        <Home setPage={setPage}/>:         
+        <OrderList/>}
       </Layout>
-      
-      {/* Other components below */}
+
+
+
     </div>
   );
 }

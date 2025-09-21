@@ -69,3 +69,42 @@
   background-color: #f8d7da;
   color: #721c24;
 }
+.order-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding: 10px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.toolbar-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.toolbar-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.toolbar-icon:hover {
+  transform: scale(1.1);
+}
+
+.toolbar-search {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-input {
+  padding: 6px 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+}
+

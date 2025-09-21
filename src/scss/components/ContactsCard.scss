@@ -1,0 +1,17 @@
+@import '../variables';
+
+.contacts-card {
+    display: flex;
+max-width: 232px;
+align-items: center;
+background-color: var(--contacts-bg);
+color: var(--contacts-text);
+
+&-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+&-icon {
+    padding-right: 8px;
+}
+}

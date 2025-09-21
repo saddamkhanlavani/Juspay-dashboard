@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/OrderList.css";
+import "../scss/components/OrderList.scss";
 
 const orders = [
   {
@@ -84,7 +84,7 @@ const orders = [
   },
 ];
 
-const OrderList = () => {
+export const OrderList = () => {
   return (
     <div className="order-list">
       <h2 className="order-title">Order List</h2>
@@ -140,5 +140,3 @@ const OrderList = () => {
     </div>
   );
 };
-
-export default OrderList;

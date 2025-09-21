@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.dashboard-card {
+padding : 12px;
+max-width: 120px;
+display: flex;
+flex-direction: column;
+background-color: var(--dashboard-bg);
+color: var(--contacts-text);
+border-radius: 10%;
+align-items: center;
+
+&-title {
+    font-weight : bold;
+    margin-bottom: 12px;
+}
+
+&-main {
+    display : flex;
+    direction : column;
+
+    &-value {
+        font-weight: bolder;
+        font-size: larger;
+        padding-right: 12px;
+    }
+
+    &-varience {
+        span {
+            padding-left : 4px;
+
+        }
+        font-size: smaller;
+    }
+}
+}
