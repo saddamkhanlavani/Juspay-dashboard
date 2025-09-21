@@ -10,7 +10,7 @@ export const DashBoardCard = ({
         <div className="dashboard-card-main">
         <div className="dashboard-card-main-value">{value}</div>
         <div className="dashboard-card-main-varience">{variance}<span>
-    <img src='/Icons/upArrow.svg' alt="uparrow"/>
+    <img src='https://saddamkhanlavani.github.io/Juspay-dashboard/Icons/upArrow.svg' alt="uparrow"/>
             </span></div>
         </div>
         </div>

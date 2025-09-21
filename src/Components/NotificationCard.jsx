@@ -1,6 +1,6 @@
 import '../scss/components/NotificationCard.scss';
 
-export const NotificationCard = ({ icon = "/Icons/bugIcon.svg", title, time }) => {
+export const NotificationCard = ({ icon = "https://saddamkhanlavani.github.io/Juspay-dashboard/Icons/bugIcon.svg", title, time }) => {
   return (
     <div className="notification-card">
       <div className="notification-card-logo">
