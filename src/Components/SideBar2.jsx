@@ -26,7 +26,7 @@ export const SideBar2 = () => {
           <NotificationCard icon="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity1.png" title="You have a bug that needs..." time="Just now" />
           <NotificationCard icon="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity2.png" title="Released a new version." time="59 minutes ago" />
           <NotificationCard icon="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity3.png" title="Submitted a bug." time="12 hours ago" />
-          <NotificationCard icon="/https://saddamkhanlavani.github.io/Juspay-dashboardassets/icon-activity4.png" title="Modified data in Page X." time="Today, 11.59 AM" />
+          <NotificationCard icon="/https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity4.png" title="Modified data in Page X." time="Today, 11.59 AM" />
           <NotificationCard icon="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity5.png" title="Deleted a page in Project X." time="Feb 2, 2023" />
         </ul>
       </div>
