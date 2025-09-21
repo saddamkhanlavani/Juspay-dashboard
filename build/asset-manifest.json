@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.46de66e3.css",
-    "main.js": "/static/js/main.6725086a.js",
-    "static/js/453.f2a7bfa9.chunk.js": "/static/js/453.f2a7bfa9.chunk.js",
-    "index.html": "/index.html",
-    "main.46de66e3.css.map": "/static/css/main.46de66e3.css.map",
-    "main.6725086a.js.map": "/static/js/main.6725086a.js.map",
-    "453.f2a7bfa9.chunk.js.map": "/static/js/453.f2a7bfa9.chunk.js.map"
+    "main.css": "/juspay-dashboard/static/css/main.46de66e3.css",
+    "main.js": "/juspay-dashboard/static/js/main.9b18a7ad.js",
+    "static/js/453.f2a7bfa9.chunk.js": "/juspay-dashboard/static/js/453.f2a7bfa9.chunk.js",
+    "index.html": "/juspay-dashboard/index.html",
+    "main.46de66e3.css.map": "/juspay-dashboard/static/css/main.46de66e3.css.map",
+    "main.9b18a7ad.js.map": "/juspay-dashboard/static/js/main.9b18a7ad.js.map",
+    "453.f2a7bfa9.chunk.js.map": "/juspay-dashboard/static/js/453.f2a7bfa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46de66e3.css",
-    "static/js/main.6725086a.js"
+    "static/js/main.9b18a7ad.js"
   ]
 }
