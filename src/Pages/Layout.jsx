@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import {SideBar2 } from "../components/SideBar2";
 import "../scss/Layout.scss";
 
-export const Layout = ({ children }) => {
+export const Layout = ({ page, children }) => {
   return (
     <div className="layout">
       <Sidebar />
@@ -12,7 +12,11 @@ export const Layout = ({ children }) => {
         <Header />
         <div className="content">{children}</div>
       </div>
-      <SideBar2 />
+
+
+{page ? <SideBar2 /> : null}
+
+
     </div>
   );
 };

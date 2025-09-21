@@ -29,8 +29,16 @@ useEffect(() => {
   return (
     <header className="header">
       {/* Left section: Breadcrumb */}
+
       <div className="breadcrumb">
-        <span>Dashboards</span> / <span>Default</span>
+               <img src={theme === "dark"
+        ? "/assets/icon-dark-bell.png" 
+        : "/assets/icon-activity.png"}  className="header-icon-left" alt="Activity" />
+        
+        <img src={theme === "dark"
+         ? "/assets/icon-dark-widgets.png"
+         : "/assets/icon-sun.png"} className="header-icon-left" alt="Notifications"/>
+        <span className="header-text">Dashboards  /</span> <span className="header-text">Default</span>
       </div>
 
       {/* Right section: Icons */}

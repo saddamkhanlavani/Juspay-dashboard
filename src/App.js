@@ -12,11 +12,11 @@ const  App = ( ) =>  {
   return (
     <div className="App">
 
-<Layout>
+<Layout page={page}>
         {page ?         
         <Home setPage={setPage}/>:         
         <OrderList/>}
-      </Layout>
+      </Layout >
 
 
 

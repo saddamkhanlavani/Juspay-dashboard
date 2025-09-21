@@ -88,6 +88,27 @@ export const OrderList = () => {
   return (
     <div className="order-list">
       <h2 className="order-title">Order List</h2>
+
+       <div className="order-list-wrapper">
+      <div className="order-list-header">
+        <div className="order-list-controls">
+          <img src="/assets/icon-add.png" className="icon"  />
+          <img src="/assets/icon-collapse.png" className="icon"  />
+          <img src="/assets/icon-sort.png" className="icon"  />
+        </div>
+        <div className="order-list-search">
+          <img src="/assets/search1.png" alt="search" />
+          <input type="text" placeholder="Search" />
+          
+        </div>
+      </div>
+
+      {/* You can add your table or order cards below */}
+      <div className="order-list-content">
+        {/* Order items go here */}
+      </div>
+    </div>
+
       <table className="order-table">
         <thead>
           <tr>
