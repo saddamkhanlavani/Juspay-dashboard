@@ -1,0 +1,33 @@
+@import '../variables.scss';
+
+.notification-card {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    background-color: var(--contacts-bg);
+    max-width: 240px;
+
+ &-text {
+    padding-left: 4px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 232px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: var(--contacts-text);
+
+    &-title {
+        margin-top : 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-time {
+        font-size: small;
+        color : grey
+    }
+}
+}

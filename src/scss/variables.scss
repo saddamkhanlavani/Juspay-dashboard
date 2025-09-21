@@ -1,0 +1,11 @@
+:root {
+    --contacts-bg: #fff;
+    --contacts-text: #222;
+    --dashboard-bg: #E3F5FF;
+  }
+
+  html[data-theme='dark'] {
+    --contacts-bg: #222;
+    --contacts-text: #fff;
+    --dashboard-bg: #323536;
+  }
