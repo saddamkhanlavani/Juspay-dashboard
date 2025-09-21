@@ -4,7 +4,7 @@ import "../scss/components/OrderList.scss";
 const orders = [
   {
     id: "#CM9801",
-    user: { name: "Natali Craig", avatar: "/assets/icon-natali.png" },
+    user: { name: "Natali Craig", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-natali.png" },
     project: "Landing Page",
     address: "Meadow Lane Oakland",
     date: "Just now",
@@ -12,7 +12,7 @@ const orders = [
   },
   {
     id: "#CM9802",
-    user: { name: "Kate Morrison", avatar: "/assets/icon-kate.png" },
+    user: { name: "Kate Morrison", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-kate.png" },
     project: "CRM Admin pages",
     address: "Larry Son Francisco",
     date: "A minute ago",
@@ -20,7 +20,7 @@ const orders = [
   },
   {
     id: "#CM9803",
-    user: { name: "Drew Cano", avatar: "/assets/icon-drew.png" },
+    user: { name: "Drew Cano", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-drew.png" },
     project: "Client Project",
     address: "Bagweli Avenue Ocala",
     date: "1 hour ago",
@@ -28,7 +28,7 @@ const orders = [
   },
   {
     id: "#CM9804",
-    user: { name: "Orlando Diggs", avatar: "/assets/icon-orlando.png" },
+    user: { name: "Orlando Diggs", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-orlando.png" },
     project: "Admin Dashboard",
     address: "Washburn Baton Rouge",
     date: "Yesterday",
@@ -36,7 +36,7 @@ const orders = [
   },
   {
     id: "#CM9805",
-    user: { name: "Andi Lane", avatar: "/assets/icon-andi.png" },
+    user: { name: "Andi Lane", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-andi.png" },
     project: "App Landing Page",
     address: "Nest Lane Olivette",
     date: "Feb 2, 2023",
@@ -44,7 +44,7 @@ const orders = [
   },
   {
     id: "#CM9801",
-    user: { name: "Natali Craig", avatar: "/assets/icon-natali.png" },
+    user: { name: "Natali Craig", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-natali.png" },
     project: "Landing Page",
     address: "Meadow Lane Oakland",
     date: "Just now",
@@ -52,7 +52,7 @@ const orders = [
   },
   {
     id: "#CM9802",
-    user: { name: "Kate Morrison", avatar: "/assets/icon-kate.png" },
+    user: { name: "Kate Morrison", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-kate.png" },
     project: "CRM Admin pages",
     address: "Larry Son Francisco",
     date: "A minute ago",
@@ -60,7 +60,7 @@ const orders = [
   },
   {
     id: "#CM9803",
-    user: { name: "Drew Cano", avatar: "/assets/icon-drew.png" },
+    user: { name: "Drew Cano", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-drew.png" },
     project: "Client Project",
     address: "Bagweli Avenue Ocala",
     date: "1 hour ago",
@@ -68,7 +68,7 @@ const orders = [
   },
   {
     id: "#CM9804",
-    user: { name: "Orlando Diggs", avatar: "/assets/icon-orlando.png" },
+    user: { name: "Orlando Diggs", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-orlando.png" },
     project: "Admin Dashboard",
     address: "Washburn Baton Rouge",
     date: "Yesterday",
@@ -76,7 +76,7 @@ const orders = [
   },
   {
     id: "#CM9805",
-    user: { name: "Andi Lane", avatar: "/assets/icon-andi.png" },
+    user: { name: "Andi Lane", avatar: "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-andi.png" },
     project: "App Landing Page",
     address: "Nest Lane Olivette",
     date: "Feb 2, 2023",
@@ -92,12 +92,12 @@ export const OrderList = () => {
        <div className="order-list-wrapper">
       <div className="order-list-header">
         <div className="order-list-controls">
-          <img src="/assets/icon-add.png" className="icon"  />
-          <img src="/assets/icon-collapse.png" className="icon"  />
-          <img src="/assets/icon-sort.png" className="icon"  />
+          <img src="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-add.png" className="icon"  />
+          <img src="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-collapse.png" className="icon"  />
+          <img src="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-sort.png" className="icon"  />
         </div>
         <div className="order-list-search">
-          <img src="/assets/search1.png" alt="search" />
+          <img src="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/search1.png" alt="search" />
           <input type="text" placeholder="Search" />
           
         </div>
@@ -136,7 +136,7 @@ export const OrderList = () => {
               <td>{order.address}</td>
               <td className="date-cell">
                 <img
-                  src="/assets/icon-date.png"
+                  src="https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-date.png"
                   alt="date"
                   className="date-icon"
                 />

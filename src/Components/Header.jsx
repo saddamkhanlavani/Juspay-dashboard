@@ -32,12 +32,12 @@ useEffect(() => {
 
       <div className="breadcrumb">
                <img src={theme === "dark"
-        ? "/assets/icon-dark-bell.png" 
-        : "/assets/icon-activity.png"}  className="header-icon-left" alt="Activity" />
+        ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-bell.png" 
+        : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity.png"}  className="header-icon-left" alt="Activity" />
         
         <img src={theme === "dark"
-         ? "/assets/icon-dark-widgets.png"
-         : "/assets/icon-sun.png"} className="header-icon-left" alt="Notifications"/>
+         ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-widgets.png"
+         : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-sun.png"} className="header-icon-left" alt="Notifications"/>
         <span className="header-text">Dashboards  /</span> <span className="header-text">Default</span>
       </div>
 
@@ -53,21 +53,21 @@ useEffect(() => {
   }}
 >
   <img src={theme === "dark" 
-        ? "/assets/icon-dark-theme.png" 
-        : "/assets/icon-widgets.png"}
+        ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-theme.png" 
+        : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-widgets.png"}
   alt="Toggle Theme" />
 </div>
       
         <img src={theme === "dark"
-        ? "/assets/icon-dark-activity.png" 
-        : "/assets/icon-bell.png"} alt="Widgets" />
+        ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-activity.png" 
+        : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-bell.png"} alt="Widgets" />
          <img src={theme === "dark"
-        ? "/assets/icon-dark-bell.png" 
-        : "/assets/icon-activity.png"} alt="Activity" />
+        ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-bell.png" 
+        : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-activity.png"} alt="Activity" />
         
         <img src={theme === "dark"
-         ? "/assets/icon-dark-widgets.png"
-         : "/assets/icon-sun.png"} alt="Notifications"/>
+         ? "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-dark-widgets.png"
+         : "https://saddamkhanlavani.github.io/Juspay-dashboard/assets/icon-sun.png"} alt="Notifications"/>
 
       </div>
     </header>

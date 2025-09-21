@@ -7,7 +7,7 @@ export const RevenueByLocation = () => {
     <div className="revenue-card">
       <div className="revenue-title">Revenue by Location</div>
       <div className="revenue-map-wrapper">
-        <img src='/assets/World_Map.png' alt="World Map" className="revenue-map-img"/>
+        <img src='https://saddamkhanlavani.github.io/Juspay-dashboard/assets/World_Map.png' alt="World Map" className="revenue-map-img"/>
       </div>
       <div className="revenue-row">
         <span>New York</span>
